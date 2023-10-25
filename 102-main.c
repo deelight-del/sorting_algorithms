@@ -9,12 +9,12 @@
  *     */
 int main(void)
 {
-	int array[] = {3, 2, 1};
+	int array[] = {48, 19, 78, 46, 89};
 	size_t n = sizeof(array) / sizeof(array[0]);
 
 	print_array(array, n);
 	printf("\n");
-	shell_sort(array, n);
+	counting_sort(array, n);
 	printf("\n");
 	print_array(array, n);
 	return (0);

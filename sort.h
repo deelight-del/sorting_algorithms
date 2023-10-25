@@ -27,4 +27,6 @@ void quick_sort(int *array, size_t size);
 void sort(int *array, int start_idx, int end_idx, int size);
 int partition(int *array, int start_idx, int end_idx, int size);
 void swap(int *array, int *first, int *second, int size);
+void cocktail_sort_list(listint_t **list);
+void counting_sort(int *array, size_t size);
 #endif
